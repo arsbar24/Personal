@@ -13,4 +13,4 @@ In this project we try several methods of possible improvement on these methods,
 
 4. Applying optimal transportation to the convolutions of images (via a CNN).
 
-Experimentally, we conclude that (1) provides a modest but statistically significant improvement in almost all settings, while (2) is a major improvement that is easily implemented, (3) is a practical method, but our experiments were unsuited to the MNIST dataset, and (4) was too sensitive for practical amounts of data (we propose work-arounds involving ReLu levels to reduce dimensionality).
+Experimentally, we conclude that (1) provides a modest but statistically significant improvement in almost all settings, while (2) is a major improvement that is easily implemented, (3) was found to be practical, but our experiments were unsuited to the MNIST dataset (whose samples have relatively uniform location/orientation), and (4) was too sensitive for practical amounts of data (we propose work-arounds involving ReLu levels to reduce dimensionality).
